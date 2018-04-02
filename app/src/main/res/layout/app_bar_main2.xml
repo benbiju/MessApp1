@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="android.messapp.com.myapplication.Main2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main2" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:paddingTop="75dp"
+        android:weightSum="1"
+        android:layout_height="600dp">
+
+        <TextView
+            android:text="Student Name"
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="Student RollNo"
+            android:layout_width="match_parent"
+            android:id="@+id/rollno"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:text="Student Mess"
+            android:layout_width="match_parent"
+            android:id="@+id/mess"
+            android:layout_height="50dp" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spinner"
+            android:entries="@array/mess_arrays"
+            android:prompt="@string/mess_prompt"
+            />
+
+
+        <Button
+            android:text="Check Menu"
+            android:layout_width="match_parent"
+            android:layout_gravity=""
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:visibility="visible"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:elevation="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/breakfast"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lunch"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dinner"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rate"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seats"
+            android:visibility="gone" />
+
+        <Button
+            android:text="Check Dues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/dues"
+            tools:visibility="gone" />
+
+        <Button
+            android:text="Book Mess"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_weight="0.07" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/text1" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

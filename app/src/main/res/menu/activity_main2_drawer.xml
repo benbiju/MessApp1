@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_dues"
+            android:title="Check Dues" />
+        <item
+            android:id="@+id/nav_book"
+            android:title="Book Mess" />
+
+
+    </group>
+
+    <item android:title="Other Options">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Log Out" />
+
+        </menu>
+    </item>
+
+</menu>

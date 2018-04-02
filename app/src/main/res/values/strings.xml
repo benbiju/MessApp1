@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main2">Student Mess Booking</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+        <string name="mess_prompt">Select mess</string>
+        <string-array name="mess_arrays">
+            <item>Select Mess</item>
+            <item>MBH</item>
+            <item>MDH</item>
+        </string-array>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

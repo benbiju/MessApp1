@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "519284169332",
+    "firebase_url": "https://myapplication-74e43.firebaseio.com",
+    "project_id": "myapplication-74e43",
+    "storage_bucket": "myapplication-74e43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519284169332:android:66cc1f8b987810cc",
+        "android_client_info": {
+          "package_name": "android.messapp.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519284169332-2ci1pbgfa55ia59oacnvdpmt46k8mi7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.messapp.com.myapplication",
+            "certificate_hash": "cb3f74757209abf353beb37a937624579822408c"
+          }
+        },
+        {
+          "client_id": "519284169332-isdugft8aad4udqad4iaqv5fv4t7lpsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4vm0wlDnM_jaov-dgDgJyUpFYfZKs9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519284169332-isdugft8aad4udqad4iaqv5fv4t7lpsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
